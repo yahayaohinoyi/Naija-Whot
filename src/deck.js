@@ -24,7 +24,7 @@ class Deck {
         let sample;
         switch (cardType) {
             case "WHOT":
-                sample = [20];
+                sample = [20, 20, 20, 20, 20];
                 return sample;
             case "SQUARE":
                 sample = Array.from(Array(15).keys()).map(num => {
